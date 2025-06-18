@@ -4,7 +4,7 @@ public class PersonDetails {
 	public static void main(String[] args) {
 		
 		Person Shahana=new Person();
-		Shahana.name="Shahana";
+		Shahana.name="Shahana s";
 		Shahana.age=23;
 		Shahana.number="76534258986";
 		Shahana.printDetails();
