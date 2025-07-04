@@ -5,7 +5,7 @@ public class Loops {
 
 		// FOR LOOP
 
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= 5; i++) {
 			System.out.println(i);
 		}
 
@@ -22,6 +22,16 @@ public class Loops {
 		while (i >= 1) {
 			System.out.println(i);
 			i--;
+	
+		}
+		
+		//Enhanced for loop
+		
+		String[] fruits = {"Apple", "Banana", "Orange", "Mango"};
+		
+		for(String s:fruits) {
+			System.out.println(s);
 		}
 	}
+	
 }
