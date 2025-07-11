@@ -26,5 +26,5 @@ public class PrintNumbers {
 		System.out.println("Even Numbers :" + EvenNumbers);
 		System.out.println("Odd Numbers :" + oddNumbers);
 	}
-
 }
+

@@ -1,11 +1,10 @@
 package List;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
+import java.util.Random;
 
-public class Company {
+public class School {
 
 	public static void main(String[] args) {
 		List<Students> stds = new ArrayList<Students>();
@@ -32,6 +31,20 @@ public class Company {
 			System.out.println("ID : " + s.getId());
 			System.out.println("Age : " + s.getAge());
 		}
-
+		// UPDATE
+		Random rand = new Random();
+		for (Students s : stds) {
+			int num = rand.nextInt(20) + 1;
+			s.setRollNum(num);
+			System.out.println("Rollnum : " + s.getRollNum());
+		}
+		//remove
+		stds.remove(s2);
+		for (Students s : stds) {
+			System.out.println("Name : " + s.getName());
+			System.out.println("ID : " + s.getId());
+			System.out.println("Age : " + s.getAge());
+		}
 	}
+
 }

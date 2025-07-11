@@ -4,6 +4,15 @@ public class Students {
 	private String name;
 	private int id;
 	private int age;
+	public int getRollNum() {
+		return rollNum;
+	}
+
+	public void setRollNum(int rollNum) {
+		this.rollNum = rollNum;
+	}
+
+	private int rollNum;
 
 	public String getName() {
 		return name;
